@@ -1,11 +1,11 @@
 # Audio ACBD
-etc/acdbdata/Bluetooth_cal.acdb
-etc/acdbdata/General_cal.acdb
-etc/acdbdata/Global_cal.acdb
-etc/acdbdata/Handset_cal.acdb
-etc/acdbdata/Hdmi_cal.acdb
-etc/acdbdata/Headset_cal.acdb
-etc/acdbdata/Speaker_cal.acdb
+etc/Bluetooth_cal.acdb
+etc/General_cal.acdb
+etc/Global_cal.acdb
+etc/Handset_cal.acdb
+etc/Hdmi_cal.acdb
+etc/Headset_cal.acdb
+etc/Speaker_cal.acdb
 
 # Audio amplifier
 etc/Tfa98xx.cnt
@@ -13,6 +13,7 @@ etc/Tfa98xx.cnt
 # Bluetooth
 
 # Camera
+bin/mm-qcamera-app
 bin/mm-qcamera-daemon
 etc/camera/imx377_chromatix.xml
 etc/camera/msm8996_camera.xml

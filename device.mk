@@ -102,8 +102,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:system/etc/sound_trigger_platform_info.xml
 
 # Browser
-PRODUCT_PACKAGES += \
-    Gello
+#PRODUCT_PACKAGES += \
+#    Gello
 
 # Camera
 PRODUCT_PACKAGES += \
@@ -241,8 +241,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:system/etc/thermal-engine.conf
     
 # Virtual Reality
-PRODUCT_PACKAGES += \
-    vr.msm8996
+#PRODUCT_PACKAGES += \
+#    vr.msm8996
 
 # Wifi
 PRODUCT_PACKAGES += \

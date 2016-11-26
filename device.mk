@@ -239,6 +239,10 @@ PRODUCT_PACKAGES += \
 # Thermal
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:system/etc/thermal-engine.conf
+    
+# Virtual Reality
+PRODUCT_PACKAGES += \
+    vr.msm8996
 
 # Wifi
 PRODUCT_PACKAGES += \

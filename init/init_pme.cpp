@@ -29,9 +29,10 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-
+#include <unistd.h>
+  
 #include "vendor_init.h"
-#include "property_service.h"
+#include <cutils/properties.h>
 #include "log.h"
 #include "util.h"
 

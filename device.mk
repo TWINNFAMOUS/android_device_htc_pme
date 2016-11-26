@@ -113,10 +113,11 @@ PRODUCT_PACKAGES += \
     fingerprintd
 
 # GPS
+PRODUCT_PACKAGES += \
+    gps.msm8996
+
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf \
-    $(LOCAL_PATH)/configs/izat.conf:system/etc/izat.conf \
-    $(LOCAL_PATH)/configs/sap.conf:system/etc/sap.conf
+    $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf 
 
 # HTC Logging functions
 PRODUCT_PACKAGES += \

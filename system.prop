@@ -45,6 +45,14 @@ ro.sf.lcd_density=640
 # Factory Reset Protection
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
+# Hardware Info
+ro.device.chipset=Qualcomm msm8996 Snapdragon 820 
+ro.device.cpu=Quad-core 2x2.15 GHz Kyro & 2x1.6 GHz Kyro
+ro.device.gpu=Adreno 530
+ro.device.rear_cam=12 MP
+ro.device.front_cam=5 MP
+ro.device.screen_res=1440x2560
+
 # NITZ
 persist.rild.nitz_plmn=
 persist.rild.nitz_long_ons_0=

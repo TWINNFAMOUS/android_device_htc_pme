@@ -123,6 +123,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fingerprintd
 
+# For android_filesystem_config.h
+PRODUCT_PACKAGES += \
+    fs_config_files
+
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8996
@@ -159,6 +163,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     IPACM_cfg.xml \
     ipacm
+
+# IPv6
+PRODUCT_PACKAGES += \
+    ebtables \
+    ethertypes
 
 # IRQ
 PRODUCT_COPY_FILES += \
@@ -240,6 +249,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:system/etc/thermal-engine.conf
     
+# Tools
+PRODUCT_PACKAGES += \
+    libcurl \
+    libjson \
+    libxml2
+
+# USB
+PRODUCT_PACKAGES += \
+    com.android.future.usb.accessory
+
 # Virtual Reality
 #PRODUCT_PACKAGES += \
 #    vr.msm8996

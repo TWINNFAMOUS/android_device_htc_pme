@@ -1,3 +1,28 @@
+
+
+
+
+# ADSP
+bin/adsprpcd
+vendor/lib64/libadsp_default_listener.so
+vendor/lib64/libadsprpc.so
+vendor/lib64/libfastcvadsp_stub.so
+vendor/lib/libadsp_default_listener.so
+vendor/lib/libadsprpc.so
+vendor/lib/libfastcvadsp_stub.so
+vendor/lib/rfsa/adsp/libdspCV_skel.so
+vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
+vendor/lib/rfsa/adsp/libfastcvadsp.so
+vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so
+vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
+vendor/lib/rfsa/adsp/libscveCleverCapture_skel.so
+vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
+vendor/lib/rfsa/adsp/libscveT2T_skel.so
+vendor/lib/rfsa/adsp/libscveTextReco_skel.so
+vendor/lib/rfsa/adsp/libvpp_frc.so
+vendor/lib/rfsa/adsp/libvpp_svc_skel.so
+vendor/lib/rfsa/adsp/us-syncproximity.so
+
 # Audio ACBD
 etc/Bluetooth_cal.acdb
 etc/General_cal.acdb
@@ -10,10 +35,27 @@ etc/Speaker_cal.acdb
 # Audio amplifier
 etc/Tfa98xx.cnt
 
+# Audio libraries
+vendor/lib64/libacdb-fts.so
+vendor/lib64/libacdbloader.so
+vendor/lib64/libacdbmapper.so
+vendor/lib64/libacdbrtac.so
+vendor/lib64/libadiertac.so
+vendor/lib64/libaudcal.so
+vendor/lib/libacdb-fts.so
+vendor/lib/libacdbloader.so
+vendor/lib/libacdbrtac.so
+vendor/lib/libadiertac.so
+vendor/lib/libaudcal.so
+vendor/lib/soundfx/libhwdap.so
+vendor/lib/soundfx/libqcbassboost.so
+vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcvirt.so
+vendor/lib/soundfx/libswdap.so
+
 # Bluetooth
 
 # Camera
-bin/mm-qcamera-app
 bin/mm-qcamera-daemon
 etc/camera/imx377_chromatix.xml
 etc/camera/msm8996_camera.xml
@@ -25,25 +67,19 @@ lib/libcamerapp.so
 lib/libmmjpeg_interface.so
 lib/libmm-qcamera.so
 lib/libqomx_core.so
-lib64/libn2pm.so
 vendor/lib/libflash_pmic.so
+vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
 vendor/lib/libmmjpeg.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmqjpegdma.so
 vendor/lib/libois_lc898122.so
+vendor/lib/libois_lc898123.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libsensor1.so
-vendor/lib64/libmmcamera2_frame_algorithm.so
-vendor/lib64/libmmcamera2_is.so
-vendor/lib64/libmmcamera2_stats_algorithm.so
-vendor/lib64/libmmcamera_dbg.so
-vendor/lib64/libmmcamera_tintless_algo.so
-vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
-vendor/lib64/libscalar.so
 
 # Camera actuators
 vendor/lib/libactuator_ad5816g.so
@@ -135,6 +171,13 @@ etc/hltrd.bin
 
 # Camera sensors
 lib/libmmcamera_interface.so
+vendor/lib64/libmmcamera2_frame_algorithm.so
+vendor/lib64/libmmcamera2_is.so
+vendor/lib64/libmmcamera2_q3a_core.so
+vendor/lib64/libmmcamera2_stats_algorithm.so
+vendor/lib64/libmmcamera_dbg.so
+vendor/lib64/libmmcamera_tintless_algo.so
+vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libmmcamera2_frame_algorithm.so
@@ -227,6 +270,15 @@ vendor/lib/libmmcamera_tuning_lookup.so
 vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmmcamera_vpu_module.so
 
+# DRM
+bin/qseecomd
+vendor/lib64/libdrmfs.so
+vendor/lib64/libdrmtime.so
+vendor/lib64/libQSEEComAPI.so
+vendor/lib64/librpmb.so
+vendor/lib64/libssd.so
+vendor/lib/libQSEEComAPI.so
+
 # DRM firmware
 etc/firmware/cmnlib.b00
 etc/firmware/cmnlib.b01
@@ -269,7 +321,63 @@ lib/lib_fp_img_store.so
 vendor/lib64/hw/gatekeeper.msm8996.so
 vendor/lib/hw/gatekeeper.msm8996.so
 
-# Graphics removed from here and  switched to shared graphics driver repositry
+# GPS
+lib64/hw/gps.default.so
+lib64/libgps.utils.so
+lib64/libloc_api_v02.so
+lib64/libloc_core.so
+lib64/libloc_ds_api.so
+lib64/libloc_eng.so
+lib/hw/gps.default.so
+lib/libgps.utils.so
+lib/libloc_api_v02.so
+lib/libloc_core.so
+lib/libloc_ds_api.so
+lib/libloc_eng.so
+vendor/lib64/hw/flp.default.so
+vendor/lib64/libflp.so
+vendor/lib64/libgeofence.so
+vendor/lib64/libizat_core.so
+vendor/lib64/liblbs_core.so
+vendor/lib/hw/flp.default.so
+vendor/lib/libflp.so
+vendor/lib/libgeofence.so
+vendor/lib/libizat_core.so
+vendor/lib/liblbs_core.so
+
+# Graphics
+vendor/lib64/egl/eglSubDriverAndroid.so
+vendor/lib64/egl/libEGL_adreno.so
+vendor/lib64/egl/libGLESv1_CM_adreno.so
+vendor/lib64/egl/libGLESv2_adreno.so
+vendor/lib64/egl/libq3dtools_adreno.so
+vendor/lib64/egl/libq3dtools_esx.so
+vendor/lib64/egl/libQTapGLES.so
+vendor/lib64/libadreno_utils.so
+vendor/lib64/libc2d30-a4xx.so
+vendor/lib64/libC2D2.so
+vendor/lib64/libCB.so
+vendor/lib64/libgsl.so
+vendor/lib64/libllvm-glnext.so
+vendor/lib64/libllvm-qcom.so
+vendor/lib64/libOpenCL.so
+vendor/lib64/librs_adreno.so
+vendor/lib/egl/eglSubDriverAndroid.so
+vendor/lib/egl/libEGL_adreno.so
+vendor/lib/egl/libGLESv1_CM_adreno.so
+vendor/lib/egl/libGLESv2_adreno.so
+vendor/lib/egl/libq3dtools_adreno.so
+vendor/lib/egl/libq3dtools_esx.so
+vendor/lib/egl/libQTapGLES.so
+vendor/lib/libadreno_utils.so
+vendor/lib/libc2d30-a4xx.so
+vendor/lib/libC2D2.so
+vendor/lib/libCB.so
+vendor/lib/libgsl.so
+vendor/lib/libllvm-glnext.so
+vendor/lib/libllvm-qcom.so
+vendor/lib/libOpenCL.so
+vendor/lib/librs_adreno.so
 
 # Graphics firmware
 # Signed graphics firmware
@@ -300,8 +408,26 @@ etc/firmware/keymaste.b05
 etc/firmware/keymaste.b06
 etc/firmware/keymaste.mdt
 
+# Media
+vendor/lib/libI420colorconvert.so
+vendor/lib/libmm-color-convertor.so
+vendor/lib/libOmxAacDec.so
+vendor/lib/libOmxAlacDec.so
+vendor/lib/libOmxAmrwbplusDec.so
+vendor/lib/libOmxApeDec.so
+vendor/lib/libOmxEvrcDec.so
+vendor/lib/libOmxQcelp13Dec.so
+vendor/lib/libOmxWmaDec.so
+vendor/lib64/libmm-color-convertor.so
+
 # NFC
 vendor/firmware/libpn548_fw.so
+
+# Perf
+bin/msm_irqbalance
+vendor/bin/perfd
+vendor/lib64/libqti-perfd-client.so
+vendor/lib/libqti-perfd-client.so
 
 # Peripheral manager
 bin/pm-service
@@ -323,6 +449,41 @@ vendor/lib64/libmm-qdcm.so
 vendor/lib/libmm-als.so
 vendor/lib/libmm-hdcpmgr.so
 vendor/lib/libmm-qdcm.so
+
+# QMI
+bin/irsc_util
+vendor/lib64/libdiag.so
+vendor/lib64/libdsi_netctrl.so
+vendor/lib64/libdsutils.so
+vendor/lib64/libidl.so
+vendor/lib64/libqcci_legacy.so
+vendor/lib64/libqdi.so
+vendor/lib64/libqdp.so
+vendor/lib64/libqmi_cci.so
+vendor/lib64/libqmi_client_helper.so
+vendor/lib64/libqmi_client_qmux.so
+vendor/lib64/libqmi_common_so.so
+vendor/lib64/libqmi_csi.so
+vendor/lib64/libqmi_encdec.so
+vendor/lib64/libqmiservices.so
+vendor/lib64/libqmi.so
+vendor/lib64/libsmemlog.so
+vendor/lib/libdiag.so
+vendor/lib/libdsi_netctrl.so
+vendor/lib/libdsutils.so
+vendor/lib/libidl.so
+vendor/lib/libqcci_legacy.so
+vendor/lib/libqdi.so
+vendor/lib/libqdp.so
+vendor/lib/libqmi_cci.so
+vendor/lib/libqmi_client_helper.so
+vendor/lib/libqmi_client_qmux.so
+vendor/lib/libqmi_common_so.so
+vendor/lib/libqmi_csi.so
+vendor/lib/libqmi_encdec.so
+vendor/lib/libqmiservices.so
+vendor/lib/libqmi.so
+vendor/lib/libsmemlog.so
 
 # Radio
 bin/netmgrd

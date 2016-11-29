@@ -26,10 +26,10 @@ bin/blkid
 bin/blockdev
 bin/bmgr
 bin/bootanimation
- create mode 100755 bin/bootstat
- create mode 100755 bin/brctl
- create mode 100755 bin/btfmtest
- create mode 100755 bin/btnvtool
+bin/bootstat
+bin/brctl
+bin/btfmtest
+bin/btnvtool
  create mode 100755 bin/bu
  create mode 100755 bin/bugreport
  create mode 100755 bin/bugreportz
@@ -406,101 +406,78 @@ bin/bootanimation
  create mode 100755 customize/cust_gsmconn.dat
  create mode 100755 customize/mns_map.xml
  create mode 100755 customize/resource/CCInfo.txt
- create mode 100755 customize/resource/HTC_Sense5_Boot.mp3
  create mode 100755 customize/resource/allapplication.xml
  create mode 100755 customize/resource/contextualwidget.xml
- create mode 100755 customize/resource/hTC_bootup.zip
- create mode 100755 customize/resource/hTC_downanimation.zip
  create mode 100755 customize/resource/init_ro.cfg
  create mode 100755 customize/resource/init_rw.cfg
  create mode 100755 customize/resource/quicklaunch.xml
- create mode 100755 customize/resource/splash_screen.png
- create mode 100755 customize/resource/wallpapers_00.jpg
- create mode 100755 customize/resource/wallpapers_01.jpg
- create mode 100755 customize/resource/wallpapers_02.jpg
- create mode 100755 customize/resource/wallpapers_03.jpg
- create mode 100755 customize/resource/wallpapers_04.jpg
- create mode 100755 customize/resource/wallpapers_05.jpg
- create mode 100755 customize/resource/wallpapers_06.jpg
- create mode 100755 customize/resource/wallpapers_07.jpg
- create mode 100755 customize/resource/wallpapers_08.jpg
- create mode 100755 customize/resource/wallpapers_09.jpg
- create mode 100755 customize/resource/wallpapers_10.jpg
- create mode 100755 customize/resource/wallpapers_11.jpg
- create mode 100755 customize/resource/wallpapers_12.jpg
- create mode 100755 customize/resource/wallpapers_13.jpg
- create mode 100755 customize/resource/wallpapers_14.jpg
- create mode 100755 customize/resource/wallpapers_15.jpg
- create mode 100755 customize/resource/wallpapers_16.jpg
- create mode 100755 customize/resource/wallpapers_17.jpg
- create mode 100755 customize/resource/wallpapers_18.jpg
- create mode 100755 customize/resource/wallpapers_19.jpg
- create mode 100755 etc/.demoflo/Demo.apk
- create mode 100755 etc/.demoflo/oat/arm64/Demo.odex
- create mode 100755 etc/AudioBTIDnew.csv
- create mode 100755 etc/Bluetooth_cal.acdb
- create mode 100755 etc/DxHDCP.cfg
- create mode 100755 etc/General_cal.acdb
- create mode 100755 etc/Global_cal.acdb
- create mode 100755 etc/HTCSpeakData/common/Garb04G_16k_36d_TW_INT_FTW1G.mod
- create mode 100755 etc/HTCSpeakData/common/Garb04G_8k_36d_TW_INT_FTW1G.mod
- create mode 100755 etc/HTCSpeakData/common/ModelTypeList.bin
- create mode 100755 etc/HTCSpeakData/common/version.txt
- create mode 100755 etc/HTCSpeakData/en-US/NLP.0409.bin
- create mode 100755 etc/HTCSpeakData/en-US/TN.0409.bin
- create mode 100755 etc/HTCSpeakData/version.txt
- create mode 100755 etc/Handset_cal.acdb
- create mode 100755 etc/Hdmi_cal.acdb
- create mode 100755 etc/Headset_cal.acdb
- create mode 100755 etc/IPACM_cfg.xml
- create mode 100755 etc/NOTFA_default_vol_level.conf
- create mode 100755 etc/NOTICE.html.gz
- create mode 100755 etc/PCTOOL.ISO
- create mode 100755 etc/Speaker_cal.acdb
- create mode 100755 etc/TFA_default_vol_level.conf
- create mode 100755 etc/aanc_tuning_mixer.txt
- create mode 100755 etc/apdr.conf
- create mode 100755 etc/apns-conf.xml
- create mode 100755 etc/appmanager.conf
- create mode 100755 etc/appops_policy.xml
- create mode 100755 etc/audio_effects.conf
- create mode 100755 etc/audio_platform_info.xml
- create mode 100755 etc/audio_platform_info_i2s.xml
- create mode 100755 etc/audio_policy.conf
- create mode 100755 etc/bluetooth/bt_did.conf
- create mode 100755 etc/bluetooth/bt_stack.conf
- create mode 100755 etc/bluetooth/iop_bt.db
- create mode 100755 etc/calibration
- create mode 100755 etc/camera/camera_config.xml
- create mode 100755 etc/camera/csidtg_camera.xml
- create mode 100755 etc/camera/csidtg_chromatix.xml
- create mode 100755 etc/camera/imx214_chromatix.xml
- create mode 100755 etc/camera/imx230_chromatix.xml
- create mode 100755 etc/camera/imx230_qc2002_chromatix.xml
- create mode 100755 etc/camera/imx230_qc2002_with_gyro_chromatix.xml
- create mode 100755 etc/camera/imx258_bear_chromatix.xml
- create mode 100755 etc/camera/imx258_chromatix.xml
- create mode 100755 etc/camera/imx258_mono_bear_chromatix.xml
- create mode 100755 etc/camera/imx258_mono_chromatix.xml
- create mode 100755 etc/camera/imx298_chromatix.xml
- create mode 100755 etc/camera/imx298_gt24c64_chromatix.xml
- create mode 100755 etc/camera/imx318_chromatix.xml
- create mode 100755 etc/camera/imx362_chromatix.xml
- create mode 100755 etc/camera/imx362_chromatix_bear.xml
- create mode 100755 etc/camera/imx377_htc_chromatix.xml
- create mode 100755 etc/camera/imx378_chromatix.xml
- create mode 100755 etc/camera/ov12890_htc_chromatix.xml
- create mode 100755 etc/camera/ov12890eco_htc_chromatix.xml
- create mode 100755 etc/camera/ov13850_chromatix.xml
- create mode 100755 etc/camera/ov13850_q13v06k_chromatix.xml
- create mode 100755 etc/camera/ov2680_chromatix.xml
- create mode 100755 etc/camera/ov4688_chromatix.xml
- create mode 100755 etc/camera/ov5670_chromatix.xml
- create mode 100755 etc/camera/ov5670_f5670bq_chromatix.xml
- create mode 100755 etc/camera/ov5695_chromatix.xml
- create mode 100755 etc/camera/ov8858_chromatix.xml
- create mode 100755 etc/camera/ov8865_chromatix.xml
- create mode 100755 etc/camera/s5k2l7_8953_chromatix.xml
+
+SART HERE--------------------------------------------------START HERE
+
+etc/AudioBTIDnew.csv
+etc/Bluetooth_cal.acdb
+etc/DxHDCP.cfg
+etc/General_cal.acdb
+etc/Global_cal.acdb
+etc/HTCSpeakData/common/Garb04G_16k_36d_TW_INT_FTW1G.mod
+etc/HTCSpeakData/common/Garb04G_8k_36d_TW_INT_FTW1G.mod
+etc/HTCSpeakData/common/ModelTypeList.bin
+etc/HTCSpeakData/common/version.txt
+etc/HTCSpeakData/en-US/NLP.0409.bin
+etc/HTCSpeakData/en-US/TN.0409.bin
+etc/HTCSpeakData/version.txt
+etc/Handset_cal.acdb
+etc/Hdmi_cal.acdb
+etc/Headset_cal.acdb
+etc/IPACM_cfg.xml
+etc/NOTFA_default_vol_level.conf
+etc/NOTICE.html.gz
+etc/PCTOOL.ISO
+etc/Speaker_cal.acdb
+etc/TFA_default_vol_level.conf
+etc/aanc_tuning_mixer.txt
+etc/apdr.conf
+etc/apns-conf.xml
+etc/appmanager.conf
+etc/appops_policy.xml
+etc/audio_effects.conf
+etc/audio_platform_info.xml
+etc/audio_platform_info_i2s.xml
+etc/audio_policy.conf
+etc/bluetooth/bt_did.conf
+etc/bluetooth/bt_stack.conf
+etc/bluetooth/iop_bt.db
+etc/calibration
+etc/camera/camera_config.xml
+etc/camera/csidtg_camera.xml
+etc/camera/csidtg_chromatix.xml
+etc/camera/imx214_chromatix.xml
+etc/camera/imx230_chromatix.xml
+etc/camera/imx230_qc2002_chromatix.xml
+etc/camera/imx230_qc2002_with_gyro_chromatix.xml
+etc/camera/imx258_bear_chromatix.xml
+etc/camera/imx258_chromatix.xml
+etc/camera/imx258_mono_bear_chromatix.xml
+etc/camera/imx258_mono_chromatix.xml
+etc/camera/imx298_chromatix.xml
+etc/camera/imx298_gt24c64_chromatix.xml
+etc/camera/imx318_chromatix.xml
+etc/camera/imx362_chromatix.xml
+etc/camera/imx362_chromatix_bear.xml
+etc/camera/imx377_htc_chromatix.xml
+etc/camera/imx378_chromatix.xml
+etc/camera/ov12890_htc_chromatix.xml
+etc/camera/ov12890eco_htc_chromatix.xml
+etc/camera/ov13850_chromatix.xml
+etc/camera/ov13850_q13v06k_chromatix.xml
+etc/camera/ov2680_chromatix.xml
+etc/camera/ov4688_chromatix.xml
+etc/camera/ov5670_chromatix.xml
+etc/camera/ov5670_f5670bq_chromatix.xml
+etc/camera/ov5695_chromatix.xml
+etc/camera/ov8858_chromatix.xml
+etc/camera/ov8865_chromatix.xml
+etc/camera/s5k2l7_8953_chromatix.xml
  create mode 100755 etc/camera/s5k2l7_chromatix.xml
  create mode 100755 etc/camera/s5k3l8_chromatix.xml
  create mode 100755 etc/camera/s5k3l8_f3l8yam_chromatix.xml

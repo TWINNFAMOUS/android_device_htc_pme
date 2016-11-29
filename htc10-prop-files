@@ -7,25 +7,25 @@ bin/PktRspTest
 bin/Proximity_calib
 bin/Proximity_tester
 bin/StoreKeybox
- create mode 100755 bin/acpi
- create mode 100755 bin/adsprpcd
- create mode 100755 bin/am
- create mode 100755 bin/app_process
- create mode 100755 bin/app_process32
- create mode 100755 bin/app_process64
- create mode 100755 bin/applypatch
- create mode 100755 bin/appops
- create mode 100755 bin/appwidget
- create mode 100755 bin/atrace
- create mode 100755 bin/audiod
- create mode 100755 bin/audioserver
- create mode 100755 bin/base64
- create mode 100755 bin/basename
- create mode 100755 bin/bcc
- create mode 100755 bin/blkid
- create mode 100755 bin/blockdev
- create mode 100755 bin/bmgr
- create mode 100755 bin/bootanimation
+bin/acpi
+bin/adsprpcd
+bin/am
+bin/app_process
+bin/app_process32
+bin/app_process64
+bin/applypatch
+bin/appops
+bin/appwidget
+bin/atrace
+bin/audiod
+bin/audioserver
+bin/base64
+bin/basename
+bin/bcc
+bin/blkid
+bin/blockdev
+bin/bmgr
+bin/bootanimation
  create mode 100755 bin/bootstat
  create mode 100755 bin/brctl
  create mode 100755 bin/btfmtest

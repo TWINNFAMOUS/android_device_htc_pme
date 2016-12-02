@@ -448,6 +448,7 @@ etc/bluetooth/bt_did.conf
 etc/bluetooth/bt_stack.conf
 etc/bluetooth/iop_bt.db
 etc/calibration
+# camera
 etc/camera/camera_config.xml
 etc/camera/csidtg_camera.xml
 etc/camera/csidtg_chromatix.xml
@@ -812,6 +813,7 @@ etc/nfcee_access.xml
 etc/nfcscc_access.xml
 etc/nfcse_access.xml
 etc/pbm.conf
+#permissions 
 etc/permissions/ConnectivityExt.xml
 etc/permissions/android.hardware.bluetooth.xml
 etc/permissions/android.hardware.bluetooth_le.xml
@@ -881,6 +883,7 @@ etc/permissions/rcs_service_aidl.xml
 etc/permissions/rcs_service_api.xml
 etc/permissions/rcsimssettings.xml
 etc/permissions/rcsservice.xml
+#
 etc/pnp.xml
 etc/ppp/ip-up-vpn
 etc/preferred-apps/google.xml
@@ -1078,8 +1081,10 @@ lib/crtend_so.o
 lib/drm/libdrmdriveactivatorplugin.so
 lib/drm/libdrmmirrorlinkplugin.so
 lib/drm/libhtcomaplugin.so
+#graphics 
 lib/egl/egl.cfg
 lib/egl/libGLES_android.so
+#audio
 lib/hw/audio.a2dp.default.so
 lib/hw/audio.mirrorlink.default.so
 lib/hw/audio.primary.default.so

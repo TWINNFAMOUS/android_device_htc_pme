@@ -19,6 +19,7 @@ BOARD_VENDOR := htc
 DEVICE_PATH := device/htc/pme
 
 # Use Snapdragon LLVM, if available
+NDK_TOOLCHAIN_VERSION := clang
 TARGET_USE_SDCLANG := true
 
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
